@@ -17,11 +17,11 @@ Modern browsers support adding trailing commas everywhere for more consistent co
 ## Installation
 
 ```sh
-npm install --save-dev prettier eslint-config-nick
+npm install --save-dev prettier prettier-config-nick
 ```
 
 ```sh
-yarn add --dev prettier eslint-config-nick
+yarn add --dev prettier prettier-config-nick
 ```
 
 ## Usage
