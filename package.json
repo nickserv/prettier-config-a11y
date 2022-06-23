@@ -12,5 +12,7 @@
     "prettier-config"
   ],
   "author": "Nick McCurdy <nick@nickmccurdy.com> (https://nickmccurdy.com/)",
+  "repository": "nickmccurdy/prettier-config",
+  "funding": "https://github.com/nickmccurdy/prettier-config?sponsor=1",
   "license": "ISC"
 }
