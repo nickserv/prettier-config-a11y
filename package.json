@@ -1,0 +1,16 @@
+{
+  "name": "prettier-config-nick",
+  "version": "1.0.0",
+  "description": "My opinionated yet practical Prettier config for modern JavaScript",
+  "main": "index.json",
+  "peerDependencies": {
+    "prettier": ">= 1.17.0"
+  },
+  "keywords": [
+    "prettier",
+    "config",
+    "prettier-config"
+  ],
+  "author": "Nick McCurdy <nick@nickmccurdy.com> (https://nickmccurdy.com/)",
+  "license": "ISC"
+}
