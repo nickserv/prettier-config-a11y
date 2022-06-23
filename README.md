@@ -6,10 +6,13 @@ My opinionated yet practical [Prettier](https://prettier.io/) config for modern 
 
 Here's what I've changed from Prettier's config and why. Most of the defaults are already pretty good, so check out the [Prettier docs](https://prettier.io/docs/en/options.html) for more information.
 
-| Option                   | Notes                                                                                               |
-| ------------------------ | --------------------------------------------------------------------------------------------------- |
-| `"semi": false`          | Getting rid of semicolons makes it easier to read, write, and reorder lines of code                 |
-| `"trailingComma": "all"` | Modern browsers support adding trailing commas everywhere for more consistent code with clean diffs |
+### `"semi": false`
+
+Getting rid of semicolons makes it easier to read, write, and reorder lines of code
+
+### `"trailingComma": "all"`
+
+Modern browsers support adding trailing commas everywhere for more consistent code with clean diffs
 
 ## Installation
 
