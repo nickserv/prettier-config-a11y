@@ -14,6 +14,13 @@ Getting rid of semicolons makes it easier to read, write, and reorder lines of c
 
 Modern browsers support adding trailing commas everywhere for more consistent code with clean diffs
 
+### Defaults
+
+Prettier 2 already uses these defaults, but we set them explicitly so you can use older versions consistently
+
+- `"arrowParens": "always"`
+- `"endOfLine": "lf"`
+
 ## Installation
 
 ```sh
