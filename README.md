@@ -10,14 +10,11 @@ Here's what I've changed from Prettier's config and why. Most of the defaults ar
 
 Getting rid of semicolons makes it easier to read, write, and reorder (see https://github.com/prettier/prettier/issues/13317) lines of code
 
-### `"trailingComma": "all"`
-
-Modern browsers support adding trailing commas everywhere for more consistent code with clean diffs
-
 ### Defaults
 
-Prettier 2 already uses these defaults, but we set them explicitly so you can use older versions consistently
+Prettier 3 already uses these defaults, but we set them explicitly so you can use older versions consistently
 
+- `"trailingComma": "all"`
 - `"arrowParens": "always"`
 - `"endOfLine": "lf"`
 
