@@ -8,7 +8,7 @@ Here's what I've changed from Prettier's config and why. Most of the defaults ar
 
 ### `"semi": false`
 
-Getting rid of semicolons makes it easier to read, write, and reorder (see https://github.com/prettier/prettier/issues/13317) lines of code
+Getting rid of semicolons makes it easier to read, write, and reorder (see [prettier#13317](https://github.com/prettier/prettier/issues/13317)) lines of code
 
 ### Defaults
 
