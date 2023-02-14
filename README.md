@@ -28,6 +28,10 @@ npm install --save-dev prettier prettier-config-nick
 yarn add --dev prettier prettier-config-nick
 ```
 
+```sh
+pnpm add --save-dev prettier prettier-config-nick
+```
+
 ## Usage
 
 ### `package.json`
