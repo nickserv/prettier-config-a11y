@@ -8,11 +8,15 @@ Here's what I've changed from Prettier's config and why. Most of the defaults ar
 
 ### `"semi": false`
 
-Getting rid of semicolons makes it easier to read, write, and reorder lines of code
+Getting rid of semicolons makes it easier to read, write, and reorder (see [prettier#13317](https://github.com/prettier/prettier/issues/13317)) lines of code
 
-### `"trailingComma": "all"`
+### Defaults
 
-Modern browsers support adding trailing commas everywhere for more consistent code with clean diffs
+Prettier 3 already uses these defaults, but we set them explicitly so you can use older versions consistently
+
+- `"trailingComma": "all"`
+- `"arrowParens": "always"`
+- `"endOfLine": "lf"`
 
 ## Installation
 
@@ -22,6 +26,10 @@ npm install --save-dev prettier prettier-config-nick
 
 ```sh
 yarn add --dev prettier prettier-config-nick
+```
+
+```sh
+pnpm add --save-dev prettier prettier-config-nick
 ```
 
 ## Usage
@@ -37,15 +45,3 @@ yarn add --dev prettier prettier-config-nick
 ```json
 "prettier-config-nick"
 ```
-
-## Environment support
-
-This config uses features from ES2017 which are supported by Chrome, Firefox, and Safari. Legacy browsers like Internet Explorer require build tools like https://babeljs.io/docs/en/babel-preset-env.
-
-### Node
-
-8.0.0+
-
-### TypeScript
-
-2.7+
