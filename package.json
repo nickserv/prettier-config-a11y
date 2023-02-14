@@ -3,9 +3,6 @@
   "version": "1.0.7",
   "description": "My opinionated yet practical Prettier config for modern JavaScript",
   "main": "index.json",
-  "scripts": {
-    "prepare": "git config core.hooksPath .hooks"
-  },
   "devDependencies": {
     "prettier": "^2.7.1",
     "prettier-config-nick": "^1.0.2"
