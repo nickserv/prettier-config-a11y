@@ -41,15 +41,3 @@ yarn add --dev prettier prettier-config-nick
 ```json
 "prettier-config-nick"
 ```
-
-## Environment support
-
-This config uses features from ES2017 which are supported by Chrome, Firefox, and Safari. Legacy browsers like Internet Explorer require build tools like [`@babel/preset-env`](https://babeljs.io/docs/en/babel-preset-env).
-
-### Node
-
-8.0.0+
-
-### TypeScript
-
-2.7+
