@@ -1,21 +1,21 @@
 {
-  "name": "prettier-config-nick",
-  "version": "1.0.7",
-  "description": "My opinionated yet practical Prettier config for modern JavaScript",
-  "devDependencies": {
-    "prettier": "^2.7.1"
-  },
-  "peerDependencies": {
-    "prettier": ">= 1.17.0"
-  },
-  "keywords": [
-    "prettier",
-    "config",
-    "prettier-config"
-  ],
-  "author": "Nick McCurdy <nick@nickmccurdy.com> (https://nickmccurdy.com/)",
-  "repository": "nickmccurdy/prettier-config",
-  "funding": "https://github.com/sponsors/nickmccurdy",
-  "license": "ISC",
-  "prettier": "./"
+	"name": "prettier-config-nick",
+	"version": "1.0.7",
+	"description": "My opinionated yet practical Prettier config for modern JavaScript",
+	"devDependencies": {
+		"prettier": "^2.7.1"
+	},
+	"peerDependencies": {
+		"prettier": ">= 1.17.0"
+	},
+	"keywords": [
+		"prettier",
+		"config",
+		"prettier-config"
+	],
+	"author": "Nick McCurdy <nick@nickmccurdy.com> (https://nickmccurdy.com/)",
+	"repository": "nickmccurdy/prettier-config",
+	"funding": "https://github.com/sponsors/nickmccurdy",
+	"license": "ISC",
+	"prettier": "./"
 }
