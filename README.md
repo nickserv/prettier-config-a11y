@@ -48,7 +48,7 @@ Disabled users are more likely to prefer semicolons (source: [Twitter poll](http
 
 #### `"singleQuote": false` and `"jsxSingleQuote": false`
 
-Double quotes are easier for some assistive technology to read than single quotes because they may be spoken as "apostrophe", which is a syllable longer than "double quote", but sounds similar to "single quote". Double quotes are also larger, making them easier to see. Meanwhile, HTML and JSX code is typically formatted with double quotes, so consistently using double quotes in other languages makes code behave more consistently and potentially reduces cognitive load.
+Double quotes are easier for some assistive technology to read because single quotes may be spoken as "apostrophe", which is a syllable longer than "double quote", while "single quote" sounds about as long. Double quotes are also larger, making them easier to see. Meanwhile, HTML and JSX code is typically formatted with double quotes, so consistently using double quotes in other languages makes code behave more consistently and potentially reduces cognitive load.
 
 #### `"trailingComma": "all"`
 
