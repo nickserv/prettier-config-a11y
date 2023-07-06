@@ -3,7 +3,7 @@
 	"version": "1.0.1",
 	"description": "Prettier config improving accessibility for visual, cognitive, and motor disabilities",
 	"devDependencies": {
-		"prettier": "^2.7.1"
+		"prettier": "^3.0.0"
 	},
 	"peerDependencies": {
 		"prettier": ">= 1.17.0"
