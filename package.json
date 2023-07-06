@@ -1,6 +1,6 @@
 {
 	"name": "prettier-config-a11y",
-	"version": "1.0.0-alpha.1",
+	"version": "1.0.0",
 	"description": "Prettier config improving accessibility for visual, cognitive, and motor disabilities",
 	"devDependencies": {
 		"prettier": "^2.7.1"
