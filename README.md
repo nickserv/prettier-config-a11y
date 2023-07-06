@@ -2,6 +2,34 @@
 
 [Prettier](https://prettier.io/) config improving accessibility for visual, cognitive, and motor disabilities
 
+## Installation
+
+```sh
+npm install --save-dev prettier prettier-config-a11y
+```
+
+```sh
+yarn add --dev prettier prettier-config-a11y
+```
+
+```sh
+pnpm add --save-dev prettier prettier-config-a11y
+```
+
+## Usage
+
+### `package.json`
+
+```json
+"prettier": "prettier-config-a11y"
+```
+
+### [Other Prettier config](https://prettier.io/docs/en/configuration.html)
+
+```json
+"prettier-config-a11y"
+```
+
 ## Rationale
 
 Here's what I've changed from Prettier's config and why. Most of the defaults are already pretty good, so check out the [Prettier docs](https://prettier.io/docs/en/options.html) for more information.
@@ -33,31 +61,3 @@ Keeps arguments in arrow functions consistent and easy to adjust, resulting in l
 #### `"endOfLine": "lf"`
 
 This reduces unnecessary end of line changes when switching operating systems, which can can be especially confusing for those with disabilities.
-
-## Installation
-
-```sh
-npm install --save-dev prettier prettier-config-a11y
-```
-
-```sh
-yarn add --dev prettier prettier-config-a11y
-```
-
-```sh
-pnpm add --save-dev prettier prettier-config-a11y
-```
-
-## Usage
-
-### `package.json`
-
-```json
-"prettier": "prettier-config-a11y"
-```
-
-### [Other Prettier config](https://prettier.io/docs/en/configuration.html)
-
-```json
-"prettier-config-a11y"
-```
