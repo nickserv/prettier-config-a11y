@@ -18,5 +18,5 @@
 	"repository": "nickmccurdy/prettier-config-a11y",
 	"funding": "https://github.com/sponsors/nickmccurdy",
 	"license": "ISC",
-	"prettier": "./"
+	"prettier": "."
 }
