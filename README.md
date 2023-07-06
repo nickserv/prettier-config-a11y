@@ -12,11 +12,19 @@ Indentations are easier for assistive technology to read when using tabs instead
 
 ### Defaults
 
-Prettier 3 already uses these defaults, but we set them explicitly so you can use older versions consistently
+Prettier 3 already uses these defaults, but we set them explicitly to encourage accessibility, even with older versions of Prettier.
 
-- `"trailingComma": "all"`
-- `"arrowParens": "always"`
-- `"endOfLine": "lf"`
+#### `"trailingComma": "all"`
+
+Reduces the size of diffs, making them easier to read, especially with visual and cognitive disabilities.
+
+#### `"arrowParens": "always"`
+
+Keeps arguments in arrow functions consistent and easy to adjust, resulting in less work for those with cognitive and motor disabilities.
+
+#### `"endOfLine": "lf"`
+
+This reduces unnecessary end of line changes when switching operating systems, which can can be especially confusing for those with disabilities.
 
 ## Installation
 
