@@ -11,10 +11,11 @@
 	"keywords": [
 		"prettier",
 		"config",
-		"prettier-config"
+		"prettier-config",
+		"accessibility"
 	],
 	"author": "Nick McCurdy <nick@nickmccurdy.com> (https://nickmccurdy.com/)",
-	"repository": "nickmccurdy/prettier-config",
+	"repository": "nickmccurdy/prettier-config-a11y",
 	"funding": "https://github.com/sponsors/nickmccurdy",
 	"license": "ISC",
 	"prettier": "./"
