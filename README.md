@@ -6,9 +6,9 @@
 
 Here's what I've changed from Prettier's config and why. Most of the defaults are already pretty good, so check out the [Prettier docs](https://prettier.io/docs/en/options.html) for more information.
 
-### `"semi": false`
+### `"useTabs": true`
 
-Getting rid of semicolons makes it easier to read, write, and reorder (see [prettier#13317](https://github.com/prettier/prettier/issues/13317)) lines of code
+Indentations are easier for assistive technology to read when using tabs instead of spaces because they take up less characters. Visual representations of tab indentations can also be increased by users with visual and cognitive disabilities without affecting other users.
 
 ### Defaults
 
