@@ -1,6 +1,6 @@
-# `prettier-config-nick`
+# `prettier-config-a11y`
 
-My opinionated yet practical [Prettier](https://prettier.io/) config for modern JavaScript
+[Prettier](https://prettier.io/) config improving accessibility for visual, cognitive, and motor disabilities
 
 ## Rationale
 
@@ -21,15 +21,15 @@ Prettier 3 already uses these defaults, but we set them explicitly so you can us
 ## Installation
 
 ```sh
-npm install --save-dev prettier prettier-config-nick
+npm install --save-dev prettier prettier-config-a11y
 ```
 
 ```sh
-yarn add --dev prettier prettier-config-nick
+yarn add --dev prettier prettier-config-a11y
 ```
 
 ```sh
-pnpm add --save-dev prettier prettier-config-nick
+pnpm add --save-dev prettier prettier-config-a11y
 ```
 
 ## Usage
@@ -37,11 +37,11 @@ pnpm add --save-dev prettier prettier-config-nick
 ### `package.json`
 
 ```json
-"prettier": "prettier-config-nick"
+"prettier": "prettier-config-a11y"
 ```
 
 ### [Other Prettier config](https://prettier.io/docs/en/configuration.html)
 
 ```json
-"prettier-config-nick"
+"prettier-config-a11y"
 ```
