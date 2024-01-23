@@ -67,19 +67,19 @@ resulting in less work for those with cognitive and motor disabilities.
 By default, Prettier does not wrap prose, resulting in inconsistently long lines
 that are harder to read without soft wrapping.
 
-### Defaults
+## Defaults
 
 Prettier 3 already uses these defaults, but I set them explicitly to encourage
 accessibility, even with older versions of Prettier.
 
-#### `"semi": true`
+### `"semi": true`
 
 Disabled users are more likely to prefer semicolons (source:
 [Twitter poll](https://twitter.com/nickemccurdy/status/1624305594415955973)),
 likely because they make it easier to understand when lines of code end, even
 when Prettier wraps them.
 
-#### `"singleQuote": false` and `"jsxSingleQuote": false`
+### `"singleQuote": false` and `"jsxSingleQuote": false`
 
 Double quotes are easier for some assistive technology to read because single
 quotes may be spoken as "apostrophe", which is a syllable longer than "double
@@ -89,17 +89,17 @@ formatted with double quotes, so consistently using double quotes in other
 languages makes code behave more consistently and potentially reduces cognitive
 load.
 
-#### `"trailingComma": "all"`
+### `"trailingComma": "all"`
 
 Reduces the size of diffs, making them easier to read, especially with visual
 and cognitive disabilities.
 
-#### `"arrowParens": "always"`
+### `"arrowParens": "always"`
 
 Keeps arguments in arrow functions consistent and easy to adjust, resulting in
 less work for those with cognitive and motor disabilities.
 
-#### `"endOfLine": "lf"`
+### `"endOfLine": "lf"`
 
 This reduces unnecessary end of line changes when switching operating systems,
 which can can be especially confusing for those with disabilities.
