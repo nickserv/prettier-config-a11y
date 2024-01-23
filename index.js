@@ -1,6 +1,8 @@
 /** @type import("prettier").Config */
 module.exports = {
+	experimentalTernaries: true,
 	useTabs: true,
+	quoteProps: "consistent",
 	proseWrap: "always",
 
 	// Defaults

@@ -37,12 +37,30 @@ Here's what I've changed from Prettier's config and why. Most of the defaults
 are already pretty good, so check out the
 [Prettier docs](https://prettier.io/docs/en/options.html) for more information.
 
+### `"experimentalTernaries": true`
+
+Ternaries are the best way to write complex conditionals in JavaScript
+expressions and TypeScript types. Because each ternary can only have two
+possible cases, nested ternaries are required to add more.
+
+Prettier indents nested ternaries based on their structure. This indentation
+leads to longer lines, which can cause issues with visual and cognitive
+disabilities, especially with deeply nested ternaries. We're testing Prettier's
+[experimental ternaries](https://prettier.io/blog/2023/11/13/curious-ternaries)
+(requires 3.1.0), which preserves indentation of else cases while still
+indenting nesting if cases.
+
 ### `"useTabs": true`
 
 Indentations are easier for assistive technology to read when using tabs instead
 of spaces because they take up less characters. Visual representations of tab
 indentations can also be increased by users with visual and cognitive
 disabilities without affecting other users.
+
+### `"quoteProps": "consistent"`
+
+Keeps quoting of props with special characters consistent and easy to adjust,
+resulting in less work for those with cognitive and motor disabilities.
 
 ### `"proseWrap": "always"`
 
