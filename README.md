@@ -45,7 +45,7 @@ possible cases, nested ternaries are required to add more.
 
 Prettier indents nested ternaries based on their structure. This indentation
 leads to longer lines, which can cause issues with visual and cognitive
-disabilities, especially with deeply nested ternaries. We're testing Prettier's
+disabilities, especially with deeply nested ternaries. I'm testing Prettier's
 [experimental ternaries](https://prettier.io/blog/2023/11/13/curious-ternaries)
 (requires 3.1.0), which preserves indentation of else cases while still
 indenting nesting if cases.
@@ -69,7 +69,7 @@ that are harder to read without soft wrapping.
 
 ### Defaults
 
-Prettier 3 already uses these defaults, but we set them explicitly to encourage
+Prettier 3 already uses these defaults, but I set them explicitly to encourage
 accessibility, even with older versions of Prettier.
 
 #### `"semi": true`
