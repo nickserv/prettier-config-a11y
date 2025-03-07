@@ -50,6 +50,12 @@ disabilities, especially with deeply nested ternaries. I'm testing Prettier's
 (requires 3.1.0), which preserves indentation of else cases while still
 indenting nesting if cases.
 
+### `"experimentalOperatorPosition": "start"`
+
+Prints operators at the start of new lines when wrapped. This improves
+readability for complex expressions and helps users with visual and cognitive
+disabilities.
+
 ### `"useTabs": true`
 
 Indentations are easier for assistive technology to read when using tabs instead
